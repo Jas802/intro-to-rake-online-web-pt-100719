@@ -1,7 +1,7 @@
 require 'pry'
 
 task :environment do
-  require_relative_ './config/environment'
+  require_relative './config/environment'
 end
 
 desc 'outputs hello to the terminal'
